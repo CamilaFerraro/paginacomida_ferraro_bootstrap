@@ -1,14 +1,35 @@
 body{
-    background-color:#aa6ae6;
+    background-color:#d8b0fd;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
-    background-image: url(../fotos/fondo.jpg)
 }
-.menu{
-    background-color: #8e1afa;
-    list-style: none;
-    width: 100%;
-    margin: 20px auto;
-    text-align: center;
-    grid-area: menu;
+.carousel{
+    margin-bottom: 50%;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.videoyt{
+    margin: 10px;
+}
+.video{
+    align-items: center;
+}
+.videoyt:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1s;
+}
+.logo{
+    transition: all 0.2s;
+}
+.info{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.carousel-caption{
+    color: black;
+    background-color: rgb(255, 246, 246);
+    font-size: medium;
+    size: 50%;
 }
