@@ -1,0 +1,226 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#aa6ae6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-image: url(../fotos/fondo.jpg)
+}
+.menu{
+    background-color: #8e1afa;
+    list-style: none;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    grid-area: menu;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.menu li a{
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 30px;
+}
+.menu li a:hover{
+    background-color: #683795;
+    color: #ffffff;
+    background: linear-gradient(to top, #8e1afa, rgb(180, 101, 255));
+}
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul ul li{
+    display:block;
+}
+ul li:hover ul{
+    display:block;
+    background-color:hsl(271, 70%, 71%); 
+}
+.fotoalfajor{
+    margin: 20px;
+    transition: all 1s;
+    opacity: .4;
+}
+.fotomousse{
+    margin: 20px;
+    transition: all 1s;
+    opacity: .4;
+}
+.fotovolcan{
+    margin: 20px;
+    transition: all 1s;
+    opacity: .4;
+}
+.fotoalfajor:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+.fotomousse:hover{
+    color: #000000;
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+.fotovolcan:hover{
+    color: #000000;
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+.logo{
+    transition: all 0.2s;
+    grid-area: logo;
+}
+.logo:hover{
+    transform: scale(1.1, 1.1);
+}
+.foto1{
+    margin: 20px;
+    transition: all 1s;
+    filter: grayscale(100%)
+}
+.foto1:hover{
+    transform: scale(1.1, 1.1);
+    filter: grayscale(0%);
+}
+.foto2{
+    margin: 20px;
+    transition: all 1s;
+    filter: grayscale(100%);
+}
+.foto2:hover{
+    transform: scale(1.1, 1.1);
+    filter: grayscale(0%);
+}
+.foto3{
+    margin: 20px;
+    transition: all 1s;
+    filter: grayscale(100%);
+}
+.foto3:hover{
+    transform: scale(1.1, 1.1);
+    filter: grayscale(0%);
+}
+.videoyt:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 1s;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: (4, 1fr);
+    align-items: auto;
+    grid-template-areas: 
+        "menu"
+        "logo"
+        "flexcontainer"
+        "footer";
+} 
+.grid-container div{
+    text-align: center;
+}
+.FlexContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    overflow: auto;
+    flex-direction: row;
+    grid-area: FlexContainer;
+}
+.foto1{
+    margin-right: 100px;
+}
+.foto2{
+    margin: 50px;
+}
+.foto3{
+    margin-left: 100px;
+}
+.video{
+    text-align: center;
+}
+.info{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+h1 img{
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+}
+img:hover{
+    border: #000000 solid 2px;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    grid-area: footer;
+}
+.texto2{
+    margin: 10px;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: (4, 1fr);
+    align-items: auto;
+    grid-template-areas: 
+        "menu"
+        "logo"
+        "FlexContainer1"
+        "footer";
+}
+.gridcontainer div{
+    text-align: center;
+}
+.foto4{
+    margin-right: 100px;
+}
+.foto5{
+    margin: 50px;
+}
+.foto6{
+    margin-right: 100px;
+}
+.FlexContainer1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    grid-area: FlexContainer1;
+}    
+@media screen and (max-width:400px){
+    .grid-container{
+        grid-template-areas:
+        "menu"
+        "logo"
+        "flexcontainer"
+        "footer"
+        ;
+    }
+    .gridcontainer{
+        grid-template-areas: 
+        "menu"
+        "logo"
+        "FlexContainer1"
+        "footer"
+        ;
+    }
+    .FlexContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .FlexContainer1{
+        flex-direction: column;
+        align-items: center;
+    }
+}
