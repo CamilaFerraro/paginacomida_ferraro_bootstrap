@@ -12,30 +12,3 @@ body{
     text-align: center;
     grid-area: menu;
 }
-.menu li{
-    display: inline-block;
-    text-align: center;
-    position: relative;
-}
-.menu li a{
-    text-decoration: none;
-    color: #ffffff;
-    display: inline-block;
-    padding: 30px;
-}
-.menu li a:hover{
-    background-color: #683795;
-    color: #ffffff;
-    background: linear-gradient(to top, #8e1afa, rgb(180, 101, 255));
-}
-ul ul{
-    position: absolute;
-    display: none;
-}
-ul ul li{
-    display:block;
-}
-ul li:hover ul{
-    display:block;
-    background-color:hsl(271, 70%, 71%); 
-}
