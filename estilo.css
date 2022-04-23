@@ -1,13 +1,13 @@
 body{
     background-color:#d8b0fd;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
     font-size: large;
 }
 .carousel{
     margin-bottom: 5%;
 }
 footer{
-    margin: 10px
+    margin: 10px;
 }
 .videoyt{
     margin: 10px;
@@ -45,3 +45,4 @@ footer{
     transform: scale(1.02, 1.02);
     filter: grayscale(0%);
 }
+
