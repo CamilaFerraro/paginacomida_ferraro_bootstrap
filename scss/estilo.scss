@@ -1,0 +1,55 @@
+body {
+    background-color: #d8b0fd;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: large;
+}
+
+.videoyt {
+	margin: 10px;
+	align-items: center;
+    &:hover{
+        transform: scale(1.01, 1.01);
+	    transition: all 0.2s;
+    }
+}
+
+.carousel {
+	margin-bottom: 5%;
+}
+
+footer {
+	margin: 10px;
+}
+
+.video {
+	align-items: center;
+	margin-bottom: 5%;
+}
+
+.logo {
+	transition: all 0.2s;
+}
+
+.info {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.carousel-caption {
+	color: black;
+	background-color: rgb(255, 246, 246);
+	font-size: medium;
+	size: 50%;
+}
+
+.card {
+	margin: 2px;
+	background-color: transparent;
+	transition: all 1s;
+	filter: grayscale(100%);
+	width: 100px;
+    &:hover {
+        transform: scale(1.02, 1.02);
+        filter: grayscale(0%);
+    }
+}
