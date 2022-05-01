@@ -25,13 +25,10 @@ body {
   font-size: large;
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 400px) {
   body {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 100%;
-    height: auto;
+    aspect-ratio: 4x3;
+    margin: auto;
   }
 }
 
