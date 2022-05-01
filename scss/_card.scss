@@ -6,7 +6,7 @@
 	filter: grayscale(100%);
 	width: 100px;
     &:hover {
-        transform: scale(1.02, 1.02);
+        transform: scale(1.01, 1.01);
         filter: grayscale(0%);
     }
 }
