@@ -8,5 +8,10 @@
     &:hover {
         transform: scale(1.01, 1.01);
         filter: grayscale(0%);
-    }
+	}
+	@media screen and (max-width:600px) {
+		align-items: center;
+		width:100%;
+		height:auto;
+	}
 }

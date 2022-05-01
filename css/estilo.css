@@ -42,6 +42,16 @@ body {
           filter: grayscale(0%);
 }
 
+@media screen and (max-width: 600px) {
+  .card {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: auto;
+  }
+}
+
 .carousel {
   margin-bottom: 5%;
 }
