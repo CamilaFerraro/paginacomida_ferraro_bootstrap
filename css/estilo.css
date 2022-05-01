@@ -28,16 +28,12 @@ body {
 .card {
   margin: 2px;
   background-color: transparent;
-  -webkit-transition: all 1s;
-  transition: all 1s;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   width: 100px;
 }
 
 .card:hover {
-  -webkit-transform: scale(1.02, 1.02);
-          transform: scale(1.02, 1.02);
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
 }
