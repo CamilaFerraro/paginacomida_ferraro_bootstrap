@@ -25,10 +25,9 @@ body {
   font-size: large;
 }
 
-@media screen and (max-width: 400px) {
-  body {
-    aspect-ratio: 4x3;
-    margin: auto;
+@media screen and (max-width: 570px) {
+  body .nav {
+    width: auto;
   }
 }
 
