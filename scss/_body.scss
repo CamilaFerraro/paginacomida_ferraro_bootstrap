@@ -2,4 +2,9 @@ body {
     background-color: $bg;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: large;
+	@media screen and (max-width:570px) {
+		align-items: center;
+		width:100%;
+		height:auto;
+	}
 }

@@ -25,6 +25,16 @@ body {
   font-size: large;
 }
 
+@media screen and (max-width: 570px) {
+  body {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: auto;
+  }
+}
+
 .card {
   margin: 2px;
   background-color: transparent;
@@ -80,6 +90,7 @@ body {
 @media screen and (max-width: 400px) {
   .videoyt {
     aspect-ratio: 4x3;
+    margin: auto;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
