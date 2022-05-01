@@ -25,12 +25,6 @@ body {
   font-size: large;
 }
 
-@media screen and (max-width: 570px) {
-  body .nav {
-    width: auto;
-  }
-}
-
 .card {
   margin: 2px;
   background-color: transparent;
