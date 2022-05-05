@@ -1,5 +1,7 @@
 CAMBIOS HTML:
 
-Cambie el titulo por uno mas especifico en ambos html
+-Cambié el título por uno mas específico en html recetas
 
-Agregue key words y description
+-Agregué key words y description en recetas
+
+-Hice html de extend y mixin
