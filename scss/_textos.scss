@@ -12,11 +12,13 @@
     .textorojo{
         @extend .textos;
         border: 5px red solid;
+        color: red;
         background-color: antiquewhite;
     }
     .textovioleta{
         @extend .textos;
         border: 5px blueviolet solid;
+        color: blueviolet;
         background-color: antiquewhite;
     }
 }

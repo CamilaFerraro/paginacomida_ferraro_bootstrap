@@ -102,11 +102,13 @@ body {
 
 .textos .textorojo {
   border: 5px red solid;
+  color: red;
   background-color: antiquewhite;
 }
 
 .textos .textovioleta {
   border: 5px blueviolet solid;
+  color: blueviolet;
   background-color: antiquewhite;
 }
 /*# sourceMappingURL=estilo.css.map */
