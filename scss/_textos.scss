@@ -1,0 +1,21 @@
+.textos {
+    background-color: #ffff13;
+	display: inline-block;
+	color: #333;
+	border: 1px solid #ffffff;
+    .textonegro{
+        @extend .textos;
+        border: 5px #000000 solid;
+        background-color: antiquewhite;
+    }
+    .textorojo{
+        @extend .textos;
+        border: 5px red solid;
+        background-color: antiquewhite;
+    }
+    .textovioleta{
+        @extend .textos;
+        border: 5px blueviolet solid;
+        background-color: antiquewhite;
+    }
+}

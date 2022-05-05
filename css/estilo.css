@@ -86,4 +86,26 @@ body {
     position: relative;
   }
 }
+
+.textos, .textos .textonegro, .textos .textorojo, .textos .textovioleta {
+  background-color: #ffff13;
+  display: inline-block;
+  color: #333;
+  border: 1px solid #ffffff;
+}
+
+.textos .textonegro {
+  border: 5px #000000 solid;
+  background-color: antiquewhite;
+}
+
+.textos .textorojo {
+  border: 5px red solid;
+  background-color: antiquewhite;
+}
+
+.textos .textovioleta {
+  border: 5px blueviolet solid;
+  background-color: antiquewhite;
+}
 /*# sourceMappingURL=estilo.css.map */
