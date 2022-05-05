@@ -111,4 +111,61 @@ body {
   color: blueviolet;
   background-color: antiquewhite;
 }
+
+body {
+  background-color: #0000ff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding-top: 2px;
+  color: aqua;
+  height: 50px;
+}
+
+.recetamousse {
+  background-color: #000000;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.recetamousse h2 {
+  color: #0000ff;
+}
+
+.recetamousse p {
+  color: #ffffff;
+}
+
+.recetaalfajores {
+  background-color: #ff0000;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.recetaalfajores h2 {
+  color: #0000ff;
+}
+
+.recetaalfajores p {
+  color: #ffffff;
+}
+
+.recetatorta {
+  background-color: #8a2be2;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.recetatorta h2 {
+  color: #0000ff;
+}
+
+.recetatorta p {
+  color: #ffffff;
+}
 /*# sourceMappingURL=estilo.css.map */

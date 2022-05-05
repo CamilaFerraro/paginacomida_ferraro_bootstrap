@@ -4,7 +4,7 @@ $bgtextovioleta: #8a2be2;
 $azul: #0000ff;
 $textos: #ffffff;
 
-@mixin cajas ($bgtexto){
+@mixin textos ($bgtextos){
     background-color: $bgtextos;
     border-radius: 5px;
     padding: 1rem;
