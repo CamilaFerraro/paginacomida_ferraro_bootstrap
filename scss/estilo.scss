@@ -20,11 +20,14 @@ footer {
 }
 .textop {
 	text-align: center;
-	margin: 100px;
 }
-
-
-
+.ciudad {
+	margin-top: 10px;
+}
+.form{
+	margin: 50%;
+	width: 50%;
+}
 @import "body";
 @import "card";
 @import "carousel";
