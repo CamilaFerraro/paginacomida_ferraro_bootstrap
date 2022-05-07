@@ -20,14 +20,15 @@
 }
 .confirm {
 	text-align: center;
-	margin-top: 50px;;
+	margin-top: 50px;
+    .data{
+        margin: 50px;
+    }
+    .data2 {
+        margin: 50px;
+    }
 }
-.data{
-	margin: 50px;
-}
-.data2 {
-	margin: 50px;
-}
+
 .boton {
 	a {
 		color: #ffffff;

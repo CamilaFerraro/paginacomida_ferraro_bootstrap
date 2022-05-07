@@ -20,6 +20,10 @@ body {
   font-size: large;
 }
 
+.negocio {
+  text-align: center;
+}
+
 .card {
   margin: 2px;
   background-color: transparent;
@@ -120,11 +124,11 @@ body {
   margin-top: 50px;
 }
 
-.data {
+.confirm .data {
   margin: 50px;
 }
 
-.data2 {
+.confirm .data2 {
   margin: 50px;
 }
 
