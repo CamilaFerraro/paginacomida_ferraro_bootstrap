@@ -14,43 +14,6 @@ footer {
   transition: all 0.2s;
 }
 
-.info {
-  margin-top: 20px;
-  margin-bottom: 50px;
-}
-
-.textop {
-  text-align: center;
-}
-
-.ciudad {
-  margin-top: 10px;
-}
-
-.form {
-  margin: 10px;
-  width: 80%;
-  margin-bottom: 50px;
-}
-
-.ciudad {
-  margin-top: 40px;
-  margin-bottom: 60px;
-}
-
-.confirm {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.data {
-  margin: 50px;
-}
-
-.data2 {
-  margin: 50px;
-}
-
 body {
   background-color: #d8b0fd;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -117,5 +80,48 @@ body {
             align-items: center;
     position: relative;
   }
+}
+
+.info {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.textop {
+  margin: 50px;
+  text-align: center;
+}
+
+.ciudad {
+  margin-top: 10px;
+}
+
+.form {
+  margin: 10px;
+  width: 60%;
+  margin-bottom: 50px;
+}
+
+.ciudad {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.confirm {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.data {
+  margin: 50px;
+}
+
+.data2 {
+  margin: 50px;
+}
+
+.boton a {
+  color: #ffffff;
+  text-decoration: none;
 }
 /*# sourceMappingURL=estilo.css.map */
