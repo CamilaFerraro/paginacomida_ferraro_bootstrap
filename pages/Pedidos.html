@@ -38,48 +38,55 @@
       <div class="logo" style="text-align: center;">
         <h1> <a href="../index.html"> <img src="../fotos/Logo.png" alt="LogoPag" title="EliFerrarosCatering" width="200px"> </a> </h1>   
       </div> 
-    <p class="textop">
+    <p class="textop" style="text-align: center;">
         ¡Pedí lo que más te guste completando el siguiente formulario y nos contactaremos con vos!
     </p> 
     <section class="form">
-        <section class="form">
-            <form action="">
-                <div class="nombre">
-                    <label for="Nombre">Nombre: </label>
-                    <input type="text" placeholder="Nombre" name="Nombre">
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
                 </div>
-                <div class="apellido">
-                    <label for="Apellido">Apellido: </label>
-                    <input type="text" placeholder="Apellido" name="Apellido">
-                </div>
-                <div class="email">
-                    <label for="e-mail">e-mail: </label>
-                    <input type="email" placeholder="e-mail" name="e-mail" required>
-                </div>
-                <div class="telefono">
-                    <label for="Telefono">Teléfono: </label>
-                    <input type="text" placeholder="Teléfono" name="Teléfono">
-                </div>
-                <div class="ciudad">
-                    <label for="Ciudad">Ciudad: </label>
-                    <select name="Ciudad" id="">
-                        <option value="none">Selec. Ciudad</option>
-                        <option value="arg">Buenos Aires</option>
-                        <option value="bra">Córdoba</option>
-                        <option value="ur">Santa Fe</option>
-                    </select>
-                </div>
-            </form>
-        </section>
-    <div class="tyc">
-        <label for="terminos y condiciones"> Acepto los </label><a href="./terminos y condiciones.html" target="_blank"> términos y condiciones</a>
-        <input type="checkbox" name="acepta" value="1" required>
-    </div>
-    <div class="submit">
-        <input type="submit" value="Enviar">
-    </div>
-        </fieldset>
-    </form><hr></p>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+        </form>
+    </section>
     <footer class="footer" data-store="footer">
         <div class="container p-top-half visible-when-content-ready">
           <div class="row">
