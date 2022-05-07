@@ -19,6 +19,38 @@ footer {
   margin-bottom: 50px;
 }
 
+.textop {
+  text-align: center;
+}
+
+.ciudad {
+  margin-top: 10px;
+}
+
+.form {
+  margin: 10px;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.ciudad {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.confirm {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.data {
+  margin: 50px;
+}
+
+.data2 {
+  margin: 50px;
+}
+
 body {
   background-color: #d8b0fd;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -86,14 +118,4 @@ body {
     position: relative;
   }
 }
-body {
-  background-color: #d8b0fd;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-header {
-  text-align: center;
-  padding-top: 2px;
-  color: aqua;
-  height: 50px;
-}
+/*# sourceMappingURL=estilo.css.map */
