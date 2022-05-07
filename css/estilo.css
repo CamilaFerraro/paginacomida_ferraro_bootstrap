@@ -65,6 +65,15 @@ body {
           align-items: center;
 }
 
+.videoyt .video {
+  text-align: center;
+}
+
+.videoyt .video iframe {
+  width: 560px;
+  height: 350px;
+}
+
 .videoyt:hover {
   -webkit-transform: scale(1.01, 1.01);
           transform: scale(1.01, 1.01);
@@ -74,7 +83,6 @@ body {
 
 @media screen and (max-width: 400px) {
   .videoyt {
-    aspect-ratio: 4x3;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;

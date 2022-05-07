@@ -1,7 +1,11 @@
 CAMBIOS HTML:
 
--Cambié el título por uno mas específico en html recetas
+-Cambié el título por uno mas específico en html recetas;
 
--Agregué key words y description en recetas
+-Agregué key words y description en recetas;
 
--Hice html de extend y mixin
+-Hice html de extend y mixin;
+
+-Hice html de confirmación de pedidos;
+
+-Formulario nuevo.

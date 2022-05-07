@@ -1,12 +1,18 @@
 .videoyt {
 	margin: 10px;
 	align-items: center;
+    .video{
+        text-align: center;
+        iframe{
+            width: 560px;
+            height: 350px;
+        }
+    }
     &:hover{
         transform: scale(1.01, 1.01);
 	    transition: all 0.2s;
     }
     @media screen and (max-width:400px){
-        aspect-ratio: 4x3;
         align-items: center;
         position: relative;
     }
