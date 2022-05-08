@@ -1,12 +1,13 @@
 $cbc: #fff6f6;
 $bg: #d8b0fd;
+$ac: center;
 
 footer {
 	margin: 10px;
 }
 
 .video {
-	align-items: center;
+	align-items: $ac;
 	margin-bottom: 5%;
 }
 

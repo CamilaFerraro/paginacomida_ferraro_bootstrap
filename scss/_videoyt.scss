@@ -1,10 +1,9 @@
 .videoyt {
 	margin: 10px;
-	align-items: center;
-   
-    text-align: center;
+	align-items: $ac;
+    text-align: $ac;
     .video{
-        text-align: center;
+        text-align: $ac;
         iframe{
             width: 560px;
             height: 350px;
@@ -15,7 +14,7 @@
 	    transition: all 0.2s;
     }
     @media screen and (max-width:400px){
-        align-items: center;
+        align-items: $ac;
         position: relative;
     }
 }
