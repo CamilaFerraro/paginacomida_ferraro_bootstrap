@@ -1,15 +1,14 @@
-
-.card {
+.card{
 	margin: 2px;
 	background-color: transparent;
 	transition: all 1s;
 	filter: grayscale(100%);
 	width: 100px;
-    &:hover {
+    &:hover{
         transform: scale(1.01, 1.01);
         filter: grayscale(0%);
 	}
-	@media screen and (max-width:600px) {
+	@media screen and (max-width:600px){
 		align-items: $ac;
 		width:100%;
 		height:auto;
