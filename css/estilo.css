@@ -2,13 +2,6 @@ footer {
   margin: 10px;
 }
 
-.video {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 5%;
-}
-
 .logo {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -62,51 +55,39 @@ body {
   size: 50%;
 }
 
-.videoyt {
+.video {
+  text-align: center;
+  width: 560px;
+  height: 350px;
   margin: 10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
 }
 
-.videoyt .video {
-  text-align: center;
-}
-
-.videoyt .video iframe {
-  width: 560px;
-  height: 350px;
-}
-
-.videoyt:hover {
+.video:hover {
   -webkit-transform: scale(1.01, 1.01);
           transform: scale(1.01, 1.01);
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
-@media screen and (max-width: 400px) {
-  .videoyt {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: relative;
+@media screen and (max-width: 600px) {
+  .video .video {
+    width: 300px;
+    height: 200px;
   }
 }
 
 .info {
   margin-top: 20px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .textop {
   margin: 50px;
   text-align: center;
-}
-
-.ciudad {
-  margin-top: 10px;
 }
 
 .form {
