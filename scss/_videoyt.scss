@@ -13,4 +13,12 @@
         transform: scale(1.01, 1.01);
 	    transition: all 0.2s;
     }
+    @include mobile{
+        .video{
+            iframe{
+            width: 300px;
+            height: 90px;
+            }
+        }
+    }
 }
