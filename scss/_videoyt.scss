@@ -1,24 +1,17 @@
-.videoyt{
-	margin: 10px;
-	align-items: $ac;
+.video{
     text-align: $ac;
-    .video{
-        text-align: $ac;
-        iframe{
-            width: 560px;
-            height: 350px;
-        }
-    }
+    width: 560px;
+    height: 350px;
+    margin: 10px;
+	align-items: $ac;
     &:hover{
         transform: scale(1.01, 1.01);
 	    transition: all 0.2s;
     }
     @include mobile{
         .video{
-            iframe{
             width: 300px;
-            height: 90px;
-            }
+            height: 200px;
         }
     }
 }
