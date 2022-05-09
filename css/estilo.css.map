@@ -7,7 +7,8 @@
         "../scss/_card.scss",
         "../scss/_carousel.scss",
         "../scss/_videoyt.scss",
-        "../scss/_pedidos.scss"
+        "../scss/_pedidos.scss",
+        "../scss/_variables.scss"
     ],
     "names": [],
     "file": "estilo.css"
