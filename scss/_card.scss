@@ -9,6 +9,7 @@
         filter: grayscale(0%);
 	}
 }
+
 @include mobile{
 	.card{
 		align-items: $ac;
