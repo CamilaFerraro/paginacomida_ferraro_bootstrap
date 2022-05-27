@@ -55,32 +55,8 @@ body {
   size: 50%;
 }
 
-.video {
-  text-align: center;
-  width: 560px;
-  height: 350px;
-  margin: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.video:hover {
-  -webkit-transform: scale(1.01, 1.01);
-          transform: scale(1.01, 1.01);
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-@media screen and (max-width: 600px) {
-  .video .video {
-    width: 300px;
-    height: 200px;
-  }
-}
-
-.videoyt {
-  text-align: center;
+.link {
+  margin: 50px;
 }
 
 .info {
