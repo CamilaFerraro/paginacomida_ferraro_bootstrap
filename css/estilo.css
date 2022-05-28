@@ -2,11 +2,6 @@ footer {
   margin: 10px;
 }
 
-.logo {
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
 body {
   background-color: #d8b0fd;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -69,7 +64,7 @@ body {
 
 .video {
   text-align: center;
-  width: 90%;
+  width: 75%;
   height: 350px;
   margin: 10px;
   -webkit-box-align: center;
