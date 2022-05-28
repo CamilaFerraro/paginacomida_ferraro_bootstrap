@@ -4,8 +4,8 @@ CAMBIOS HTML:
 
 -Agregué key words y description en recetas;
 
--Hice html de extend y mixin;
-
 -Hice html de confirmación de pedidos;
 
--Formulario nuevo.
+-Formulario nuevo;
+
+-HTMLs nuevos de recetas e ingredientes.
