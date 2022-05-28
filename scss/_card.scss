@@ -9,6 +9,15 @@
         filter: grayscale(0%);
 	}
 }
+.fotosrecetatexto{
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 50px;
+}
+.recetatitulo{
+	font-size: larger;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
 
 @include mobile{
 	.card{
